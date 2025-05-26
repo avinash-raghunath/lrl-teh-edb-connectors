@@ -1,20 +1,24 @@
-# Ignore specific file types in s3_processed_layer
+# Ignore CSV files in s3_processed_layer but keep the folder itself
 Atom5_Studies/s3_processed_layer/*.csv
 Atom5_Studies/s3_processed_layer/*.json
 Atom5_Studies/s3_processed_layer/*.zip
+!Atom5_Studies/s3_processed_layer/.gitkeep
 
-# Ignore CSV files in s3_raw_layer
+# Ignore CSV files in s3_raw_layer but keep the folder itself
 Atom5_Studies/s3_raw_layer/*.csv
+!Atom5_Studies/s3_raw_layer/.gitkeep
 
 # Ignore the entire junkfiles directory
 Atom5_Studies/junkfiles/
 
-# Ignore CSV files in azure_blob_storage
+# Ignore CSV files in azure_blob_storage but keep the folder itself
 Atom5_Studies/azure_blob_storage/*.csv
+!Atom5_Studies/azure_blob_storage/.gitkeep
 
-# Ignore CSV and Excel files in reports
+# Ignore CSV and Excel files in reports but keep the folder itself
 Atom5_Studies/reports/*.csv
 Atom5_Studies/reports/*.xlsx
+!Atom5_Studies/reports/.gitkeep
 
 # Ignore VSCode settings and workspace file
 .vscode/
