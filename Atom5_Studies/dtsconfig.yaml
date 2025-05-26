@@ -1,0 +1,1208 @@
+
+global_columns:
+  columns:
+    - column_name: ECOASTDT
+      data_type: DateTime
+    - column_name: ECOAENDT
+      data_type: DateTime
+    - column_name: ECOAASMDT
+      data_type: DateTime
+    - column_name: ECOAAPSCUSE
+      data_type: Text
+      column_length: 50
+    - column_name: VISITNUM
+      data_type: Integer
+      column_length: 4
+    - column_name: STUDYID
+      data_type: Text
+      column_length: 11
+    - column_name: SITE
+      data_type: Integer
+      column_length: 5
+    - column_name: SUBJID
+      data_type: Integer
+      column_length: 5
+    - column_name: ECOASEQ
+      data_type: Text
+      column_length: 50
+    - column_name: SSTUDYID
+      data_type: Text
+      column_length: 250
+files:
+  PVL2001_B.csv:
+    columns:
+      - column_name: PVLRES25
+        data_type: Integer
+        column_length: 3
+      - column_name: PVLEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: PVLMTHD
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: QSEVLINT
+        data_type: Text
+        column_length: 20
+  PVL2001B.csv:
+    columns:
+      - column_name: PVLRES22
+        data_type: Integer
+        column_length: 3
+      - column_name: PVLEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: PVLMTHD
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: QSEVLINT
+        data_type: Text
+        column_length: 20
+  PVL2001C.csv:
+    columns:
+      - column_name: PVLRES21
+        data_type: Integer
+        column_length: 3
+      - column_name: PVLEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: PVLMTHD
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: QSEVLINT
+        data_type: Text
+        column_length: 20
+  PNRS1001A.csv:
+    columns:
+      - column_name: PNRSRES8
+        data_type: Integer
+        column_length: 2
+      - column_name: PNRSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVLINT8
+        data_type: Text
+        column_length: 20
+      - column_name: PNRSMTHD
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PNRSRES9
+        data_type: Integer
+        column_length: 2
+      - column_name: QSEVLINT9
+        data_type: Text
+        column_length: 20
+  PNRS1001B.csv:
+    columns:
+      - column_name: PNRSRES7
+        data_type: Integer
+        column_length: 2
+      - column_name: PNRSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVLINT3
+        data_type: Text
+        column_length: 20
+      - column_name: QSEVLINT7
+        data_type: Text
+        column_length: 20
+      - column_name: PNRSLOC
+        data_type: Text
+        column_length: 50
+      - column_name: PNRSMTHD
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PNRSRES3
+        data_type: Integer
+        column_length: 2
+  CM3001.csv:
+    columns:
+      - column_name: CMOCCUR
+        data_type: Text
+        column_length: 50
+      - column_name: CMINDC
+        data_type: Text
+        column_length: 50
+      - column_name: CMDOSTOT
+        data_type: Integer
+        column_length: 4
+      - column_name: CMDOSTOTU
+        data_type: Text
+        column_length: 50
+      - column_name: CMCAT
+        data_type: Text
+        column_length: 100
+      - column_name: CMSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: CMTRT
+        data_type: Text
+        column_length: 100
+      - column_name: CMPRESP
+        data_type: Text
+        column_length: 50
+  PNRS1001C.csv:
+    columns:
+      - column_name: PNRSRES7
+        data_type: Integer
+        column_length: 2
+      - column_name: PNRSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVLINT3
+        data_type: Text
+        column_length: 20
+      - column_name: QSEVLINT7
+        data_type: Text
+        column_length: 20
+      - column_name: PNRSLOC
+        data_type: Text
+        column_length: 50
+      - column_name: PNRSMTHD
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PNRSRES3
+        data_type: Integer
+        column_length: 2
+  PCS1001.csv:
+    columns:
+      - column_name: PCSR1
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR2
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR3
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR4
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR5
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR6
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR7
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR8
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR9
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR10
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR11
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR12
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSR13
+        data_type: Integer
+        column_length: 8
+      - column_name: PCSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+  PBM1001A.csv:
+    columns:
+      - column_name: QSEVINTX3
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PBMNPDRES1
+        data_type: Text
+        column_length: 63
+      - column_name: QSSCAT_NPD
+        data_type: Text
+        column_length: 63
+  PBM1001B.csv:
+    columns:
+      - column_name: QSEVLINT
+        data_type: Text
+        column_length: 20
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PBMINSNRES1_A
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_B
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_C
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_D
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_E
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_F
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_G
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_H
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_I
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_J
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_K
+        data_type: Text
+        column_length: 63
+      - column_name: PBMINSNRES1_L
+        data_type: Text
+        column_length: 63
+      - column_name: QSSCAT_IS
+        data_type: Text
+        column_length: 50
+  PBM1001C.csv:
+    columns:
+      - column_name: QSEVLINT
+        data_type: Text
+        column_length: 20
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PBMNMBRES1_A
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_B
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_C
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_D
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_E
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_F
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_G
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_H
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_I
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_J
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_K
+        data_type: Text
+        column_length: 63
+      - column_name: PBMNMBRES1_L
+        data_type: Text
+        column_length: 63
+      - column_name: QSSCAT_NMB
+        data_type: Text
+        column_length: 50
+  PBM1001D.csv:
+    columns:
+      - column_name: QSEVINTX3
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PBMOPNRES3A
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3B
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3C
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3D
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3E
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3F
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3G
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3H
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3I
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3J
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3K
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3L
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3M
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3N
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3O
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3P
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3Q
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3R
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3S
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3T
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3U
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3V
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3W
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3X
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3Y
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3Z
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AA
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AB
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AC
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AD
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AE
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AF
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AG
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AI
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AJ
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AK
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AL
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AM
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AN
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AO
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AP
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AQ
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AR
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AS
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AU
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AV
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AW
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES3AX
+        data_type: Text
+        column_length: 63
+  DMT1001_A.csv:
+    columns:
+      - column_name: DMTRES1
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES2
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES3
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES4
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES5
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES6
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES7
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES8
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES9
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES10
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES11
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES12
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES13
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES14
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES15
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES16
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES17
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES18
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES19
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES20
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES21
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES22
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES23
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES24
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES25
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES26
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES27
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES28
+        data_type: Text
+        column_length: 63
+      - column_name: DMTRES29
+        data_type: Text
+        column_length: 63
+      - column_name: QSCEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+  MNSI1001_B.csv:
+    columns:
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: MNSI117
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI118
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI119
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI120
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI121
+        data_type: Text
+        column_length: 50
+      - column_name: MNSIROTH
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI123
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI124
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI125
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI126
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI127
+        data_type: Text
+        column_length: 50
+      - column_name: MNSILOTH
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI129
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI130
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI131
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI132
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI133
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI134
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI135
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI136
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI137
+        data_type: Float
+        column_length: 3
+      - column_name: MNSIPAEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSSCAT_PA
+        data_type: Text
+        column_length: 50
+  MNSI1001_A.csv:
+    columns:
+      - column_name: MNSI101
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI102
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI103
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI104
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI105
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI106
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI107
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI108
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI109
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI110
+        data_type: Text
+        column_length: 50
+      - column_name: MNSI111
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI112
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI113
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI114
+        data_type: Integer
+        column_length: 8
+      - column_name: MNSI115
+        data_type: Integer
+        column_length: 8
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: QSSCAT_HIST
+        data_type: Text
+        column_length: 50
+  PBM1001E.csv:
+    columns:
+      - column_name: QSEVINTX3
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PBMBPDRES2_A
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPDRES2_B
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPDRES2_C
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPDRES2_D
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPDRES2_E
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPDRES2_F
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPDRES2_G
+        data_type: Text
+        column_length: 63
+      - column_name: QSSCAT_BPD
+        data_type: Text
+        column_length: 63
+  PBM1001F.csv:
+    columns:
+      - column_name: QSEVINTX3
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PBMBPOPRES2_A
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_B
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_C
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_D
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_E
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_F
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_G
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_H
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_I
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_J
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_K
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_L
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_M
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_N
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_O
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_P
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_Q
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_R
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_S
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_T
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_U
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_V
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_W
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_X
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_Y
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_Z
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AA
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AB
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AC
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AD
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AE
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AF
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AG
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AH
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AI
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AJ
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AK
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AL
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AM
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AN
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AO
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AP
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AQ
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AR
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AS
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AT
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AU
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AV
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AW
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AX
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AY
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_AZ
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BA
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BB
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BC
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BD
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BE
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BF
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BG
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BH
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BI
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BJ
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BK
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BL
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BM
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BN
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BO
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BP
+        data_type: Text
+        column_length: 63
+      - column_name: PBMBPOPRES2_BQ
+        data_type: Text
+        column_length: 63
+      - column_name: QSSCAT_BPDOP
+        data_type: Text
+        column_length: 63
+  DN41001_B.csv:
+    columns:
+      - column_name: DN4RES1
+        data_type: Text
+        column_length: 50
+      - column_name: DN4RES2
+        data_type: Text
+        column_length: 50
+      - column_name: DN4RES3
+        data_type: Text
+        column_length: 50
+      - column_name: DN4RES4
+        data_type: Text
+        column_length: 50
+      - column_name: DN4RES5
+        data_type: Text
+        column_length: 50
+      - column_name: DN4RES6
+        data_type: Text
+        column_length: 50
+      - column_name: DN4RES7
+        data_type: Text
+        column_length: 50
+      - column_name: DN4PTSCORE
+        data_type: Integer
+        column_length: 2
+      - column_name: QSCEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+  PBM1001G.csv:
+    columns:
+      - column_name: QSEVINTX3
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PBMOADRES1_A
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_B
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_C
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_D
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_E
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_F
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_G
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_H
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_I
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_J
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_K
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_L
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_M
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_N
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_O
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOADRES1_P
+        data_type: Text
+        column_length: 63
+      - column_name: QSSCAT_OAD
+        data_type: Text
+        column_length: 63
+  PBM1001H.csv:
+    columns:
+      - column_name: QSEVINTX3
+        data_type: Text
+        column_length: 50
+      - column_name: QSEVAL
+        data_type: Text
+        column_length: 50
+      - column_name: QSCAT
+        data_type: Text
+        column_length: 100
+      - column_name: PBMOPNRES2_A
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_B
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_C
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_D
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_E
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_F
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_G
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_H
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_I
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_J
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_K
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_L
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_M
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_N
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_O
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_P
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_Q
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_R
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_S
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_T
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_U
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_V
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_W
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_X
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_Y
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_Z
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AA
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AC
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AD
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AE
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AF
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AG
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AH
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AI
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AJ
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AK
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AM
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AN
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AO
+        data_type: Text
+        column_length: 63
+      - column_name: PBMOPNRES2_AP
+        data_type: Text
+        column_length: 63

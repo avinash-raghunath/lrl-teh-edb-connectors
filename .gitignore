@@ -1,0 +1,21 @@
+# Ignore specific file types in s3_processed_layer
+Atom5_Studies/s3_processed_layer/*.csv
+Atom5_Studies/s3_processed_layer/*.json
+Atom5_Studies/s3_processed_layer/*.zip
+
+# Ignore CSV files in s3_raw_layer
+Atom5_Studies/s3_raw_layer/*.csv
+
+# Ignore the entire junkfiles directory
+Atom5_Studies/junkfiles/
+
+# Ignore CSV files in azure_blob_storage
+Atom5_Studies/azure_blob_storage/*.csv
+
+# Ignore CSV and Excel files in reports
+Atom5_Studies/reports/*.csv
+Atom5_Studies/reports/*.xlsx
+
+# Ignore VSCode settings and workspace file
+.vscode/
+atom5-rel-testing.code-workspace
